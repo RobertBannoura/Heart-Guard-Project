@@ -1,0 +1,28 @@
+## Arrhythmia Detection Models: 
+1. https://github.com/lxdv/ecg-classification 
+Model: CNN with residual blocks
+Dataset: MIT-BIH Arrhythmia
+Accuracy: ~99.3%
+Language: TensorFlow
+Notes: Very strong performance on beat-based arrhythmia detection
+
+
+2. https://github.com/eddymina/ECG_Classification_Pytorch
+Model: 1D CNN
+Dataset: MIT-BIH
+Accuracy: ~97%
+Language: PyTorch
+
+## Myocardial Infarction Detection Models
+https://github.com/antonior92/automatic-ecg-diagnosis
+Model: 1D ResNet
+Dataset: PTB-XL
+Conditions Covered: Multiple — including Myocardial Infarction
+Performance: AUROC ~0.97
+Language: PyTorch
+
+## Atrial Fibrillation Detection Models
+https://github.com/awerdich/physionet
+Model: CNN + RNN hybrid based on Zihlmann et al. (PhysioNet/CinC 2017)
+Dataset: Single-lead ECG (AliveCor)
+Performance: ~92–94% accuracy for AF classification
