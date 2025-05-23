@@ -26,3 +26,11 @@ https://github.com/awerdich/physionet
 Model: CNN + RNN hybrid based on Zihlmann et al. (PhysioNet/CinC 2017)
 Dataset: Single-lead ECG (AliveCor)
 Performance: ~92–94% accuracy for AF classification
+
+## model for full classification model
+https://github.com/bbj-lab/protoecgnet/blob/main/src/backbones.py (git)
+https://arxiv.org/abs/2504.08713 (pdf)
+accuracy : 92%
+CNN RESNET 18
+3 MODELS 
+DATASET: PTB-XL
