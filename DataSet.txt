@@ -1,0 +1,2 @@
+PTB-XL: https://physionet.org/content/ptb-xl/1.0.3/
+THIS IS the data set that most stood-out for us, having around 21k ecg, with 71 labels. and open source.
